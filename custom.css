@@ -1,0 +1,26 @@
+/* .classname */
+
+
+.navigation a{
+    margin: 10px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+}
+.navigation .first:hover{
+    color: blue;
+}
+
+.navigation a:hover{
+    color: red;
+}
+.navigation .na{
+    display: inline-block;
+}
+.navigation .na .subnav{
+    display: none;
+}
+.navigation .na:hover .subnav{
+    display: block;
+}
